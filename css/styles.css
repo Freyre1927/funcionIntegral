@@ -39,7 +39,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #ffc800;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #0d74dc;
   --bs-dark: #212529;
   --bs-primary-rgb: 255, 200, 0;
   --bs-secondary-rgb: 108, 117, 125;
@@ -7772,7 +7772,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #fff !important;
 }
 
 .text-black-50 {
@@ -11500,16 +11500,19 @@ header.masthead .masthead-heading {
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;
-  max-width: 100vw;
+  max-width: 60vw;
+  max-height: 40px;
+  margin: auto;
 }
 .portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 3rem;
+  color: #123;
 }
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
@@ -11518,12 +11521,13 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
+  color: #123;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .portfolio-modal .close-modal {
   position: absolute;
