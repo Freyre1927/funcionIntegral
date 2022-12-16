@@ -11364,20 +11364,23 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #000;
+  color: #123;
   letter-spacing: 0.0025em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #EB1D36;
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem, 0, 0.5rem, 0;
     background-color: #fff;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     border-bottom: 2px solid #EB1D36;
+  }
+  #mainNav .container {
+    margin: 0;
+    max-width: 100%;
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
