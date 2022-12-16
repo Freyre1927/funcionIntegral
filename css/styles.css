@@ -11337,7 +11337,14 @@ p {
   padding: 0;
   border-radius: 100%;
 }
-
+#moreinfo{
+  background: #EB455F;
+  color: white;
+}
+#submitButton{
+  background: #EB455F; 
+  color: white;
+}
 #mainNav {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -11381,6 +11388,7 @@ p {
   #mainNav .container {
     margin: 0;
     max-width: 100%;
+    padding-right: 60px;
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
