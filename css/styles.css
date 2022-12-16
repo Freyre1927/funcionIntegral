@@ -11469,7 +11469,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 0, 0, 0.9);
+  background: rgba(1, 1, 20, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11477,7 +11477,7 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
-  color: #123;
+  color: #fff;
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
