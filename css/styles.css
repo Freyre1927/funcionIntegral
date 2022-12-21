@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: rgb(255, 255, 255);
-  --bs-body-bg: #123;
+  --bs-body-bg: #0D5298;
 }
 
 *,
@@ -183,6 +183,7 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #123;
 }
 
 ol ol,
@@ -208,6 +209,7 @@ blockquote {
 b,
 strong {
   font-weight: bolder;
+  color: #123;
 }
 
 small, .small {
